@@ -1,0 +1,69 @@
+/* General styling */
+.page-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+
+/* Specific styling */
+h1 {
+    margin: 48px 0 20px;
+}
+
+h2 {
+    margin: 20px 0 15px;
+    width: 100%;
+    text-align: center;
+}
+
+#home-link {
+    width: 100%;
+    text-align: center;
+}
+
+#home-link a {
+    padding-bottom: 20px;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.grid-item a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+/* Display grid styling for the list */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 20px 0;
+    margin: 10px 10px;
+    border: 1px solid #000000;
+    /* background-color: rgba(255, 255, 255, .7); */
+    background-color: #76749B;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    grid-row-gap: 20px;
+}
+
+.grid-focus {
+    border: 1px solid #80ffff;
+}

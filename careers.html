@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Careers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="font/webfontkit/stylesheet.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/careers.css">
+</head>
+<body>
+    <header id="header">
+      <div class="page-wrapper" id="header-wrapper">
+        <div id="logo-and-slogan">
+          <a href="./index.html">
+            <img id="logo" src="images/main-logo.png" alt="Restaurant Logo">
+            <h1 class="hidden">At World's End</h1>
+          </a>
+        </div>
+        <nav id="top-nav">
+          <h2 class="hidden">Main Navigation</h2>
+          <ul id="top-nav-container">
+            <li> <a href="aboutus.html">About Us</a>
+              <ul>
+                <li><a href="aboutus.html">Meet The Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="locations.html">Locations</a></li>
+              </ul>
+            </li>
+            <li><a href="booking.html">Events &amp; Booking</a></li>
+
+            <li><a href="menu.html">Menu</a>
+              <ul>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="specials.html">Specials</a></li>
+              </ul>
+            </li>
+            <li><a href="game.html">Contests</a></li>
+            <li><a href="giftcard.html">Gift Cards</a></li>
+            <li><a href="careers.html">Careers</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="jumbotron" id="careers-jumbotron">
+        <div class="text-center">
+            <h1>Join the Team<span>Become One of the Horde</span></h1>
+            <p>Show us the dedication. Take away the rewards.</p>
+        </div>
+    </section>
+
+
+    <!-- Job postings -->
+    <section id="careers-listing">
+        <div class="page-wrapper">
+            <h2>Start your Career here</h2>
+            <!-- Accordion for job postings -->
+            <div id="careers-accordion" class="accordion-block">
+                <h3 class="accordion-block">Head Chef</h3>
+                <div class="accordion-text accordion-block">
+                    <p class="accordion-career-number">Number of position: <span>1</span></p>
+                    <p class="accordion-block">Listen to them, the children of the night. What music they make! At World's End would love to have you be our maestro. Contact us and we can talk.</p>
+                    <button id="applyHeadChef" class="accordion-apply-btn accordion-block">Click to Apply</button>
+                </div>
+
+                <h3 class="accordion-block">Assistant Cook</h3>
+                <div class="accordion-text accordion-block">
+                    <p class="accordion-career-number">Number of position: <span>5</span></p>
+                    <p class="accordion-block">Double, double toil and trouble! Fire burn and caldron bubble! Fancy yourself the kind of weird sister or brother who would fit in with our team? Send a charm or, better yet, a resume our way. Let's chat.</p><button id="applyAssCook" class="accordion-apply-btn accordion-block">Click to Apply</button>
+                </div>
+
+                <h3 class="accordion-block">Floor Manager</h3>
+                <div class="accordion-text accordion-block">
+                    <p class="accordion-career-number">Number of position: <span>1</span></p>
+                    <p class="accordion-block">Nothing is so painful to the human mind as a great and sudden change. So At World's End would like to have you be the stern rudder to our ship and keep icy cool the oceans of a Friday night dinner rush. Send us the good word on you.</p>
+                    <button id="applyStoreManager" class="accordion-apply-btn accordion-block">Click to Apply</button>
+                </div>
+
+                <h3 class="accordion-block">Waiters</h3>
+                <div class="accordion-text accordion-block">
+                    <p class="accordion-career-number">Number of position: <span>9</span></p>
+                    <p class="accordion-block">Often 'pon a midnight fiery, you might ponder, sleek and wait'ry, over many a quaint and curious diner of our restaurant floor. Wow us with your customer service skills so we can have you wow our clientele.</p>
+                    <button id="applyWaiter" class="accordion-apply-btn accordion-block">Click to Apply</button>
+                </div>
+
+            </div>
+            <!-- End of accordion for job postings -->
+        </div>
+        
+    </section>
+
+    <!-- Application form -->
+    <section id="career-application-form">
+        <div class="page-wrapper flex-wrapper">
+            <div id="contact-details" class="flex-wrapper">
+                <div class="contact-item">
+                    <p><span>Address</span>205 Humber College Blvd, Etobicoke, ON M9W 5L7</p>
+                </div>
+                <div class="contact-item">
+                    <p><span>Let's talk</span>+1-(416)966-9100</p>
+                </div>
+                <div class="contact-item">
+                    <p><span>General Inquiries</span>careers@theworldsend.com</p>
+                </div>
+            </div>
+            <form id="application-form" class="flex-wrapper">
+                <h3>Apply with your resume</h3>
+                <div class="form-row">
+                    <label>Your full name *</label>
+                    <input type="text" placeholder="First Name" class="input-name" id="inFirstName">
+                    <input type="text" placeholder="Last Name" class="input-name" id="inLastName">
+                </div>
+                <div class="form-row">
+                    <label>Your email *</label>
+                    <input type="email" placeholder="Eg. example@example.com" id="inEmail">
+                </div>
+                <div class="form-row">
+                        <label>Applying for *</label>
+                        <select name="position" id="position_dropdown">
+                                <option id="dd_1" value="1">Head Chef</option>
+                                <option id="dd_2" value="2">Assistant Cook</option>
+                                <option id="dd_3" value="3">Floor Manager</option>
+                                <option id="dd_4" value="4">Waiter</option>
+                              </select>
+                    </div>
+                <div class="form-row">
+                    <label>Your resume *</label>
+                    <input type="file" id="inResume" accept=".doc, .docx, .pdf">
+                </div>
+                <div class="form-row">
+                    <label>Message (Optional)</label>
+                    <textarea rows="10"></textarea>
+                </div>
+                <button type="submit">Apply</button>
+            </form>
+        </div>
+    </section> 
+
+    <!-- Modal section :: Hiddien until form is submitted -->
+    <section id="myModal" class="modal">
+        <div class="modal-content">
+            <div id="myModal-text" class="modal-text">
+                <p>Thank you for applying<span></span>!</p>
+                <p>Our HR team will get back to you shortly.</p>
+            </div>
+            <div id="modal-btns">
+                <button id="continueBtn" class="modal-btn">Continue Browsing</button>
+                <button id="homeBtn" class="modal-btn">Go to Home Page</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="page-wrapper">
+        <div id="footer-wrapper">
+            <div id="social-media-links">
+                <ul>
+                <li><a href="https://www.instagram.com/therock/" class="fa fa-instagram"></a></li>
+                <li><a href="https://twitter.com/TheRock" class="fa fa-twitter"></a></li>
+                <li><a href="https://www.facebook.com/DwayneJohnson/" class="fa fa-facebook"></a></li>
+                </ul>
+            </div>
+        <nav id="footer-navigation">
+            <ul id="footer-nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+            <li><a href="booking.html">Events Booking</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="specials.html">Specials</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="game.html">Contests</a></li>
+            <li><a href="giftcard.html">Gift Cards</a></li>
+            </ul>
+        </nav>
+        <div id="location-footer">
+            <p>205 Humber College Blvd, Etobicoke, ON M9W 5L7</p>
+            <p>416.966.9100</p>
+            <p><a href="#">Terms</a></p>
+            <p><a href="#">Privacy Policy</a></p>
+            <p> &copy; 2018 At World's End</p>
+        </div>
+        </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/careers.js"></script>
+</body>
+</html>
