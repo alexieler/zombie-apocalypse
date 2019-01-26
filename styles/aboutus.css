@@ -357,6 +357,10 @@ ul li:nth-child(5){
         font-size: 0.8em;
     }
 
+    #about-us-footer {
+        display: none;
+    }
+
     #location-footer {
         font-size: 0.7em;
     }
