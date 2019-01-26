@@ -76,7 +76,7 @@ const startGame = function() {
         .sort(() => 0.5 - Math.random()); //shuffles my array
 
         //this rigs my game, comment it out to properly play game
-        //delete memoryDeck[0];
+        delete memoryDeck[0];
 
     //creating final deck
     const finalDeck = memoryDeck.map(item => {
